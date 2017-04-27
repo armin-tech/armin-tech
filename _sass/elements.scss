@@ -9,6 +9,10 @@ html, body {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+
+	@media #{$mobile} {
+		font-size: 0.6em;
+	}
 }
 
 a {
