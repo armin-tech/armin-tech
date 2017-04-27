@@ -25,7 +25,7 @@ problem: /images/other/maintain2.jpg
 				<p class="editable">Curabitur ut tempus leo, in consectetur odio. Praesent a volutpat metus. Sed ut purus mauris. Duis auctor congue nunc sit amet placerat. Etiam pretium magna orci, non volutpat leo placerat hendrerit. Suspendisse varius semper leo, id gravida arcu dignissim eu. Morbi scelerisque tincidunt eleifend.</p>
 			</div>
 			<div class="image">
-				<img class="editable" src="{{page.problem}}" alt="Screenshot" />
+				<img class="editable" src="{% include relative-src.html src=page.problem %}" alt="Screenshot" />
 			</div>
 		</div>
 	</section>
@@ -33,7 +33,7 @@ problem: /images/other/maintain2.jpg
 	<section class="info">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Pick your interests</h2>
+				<h2 class="editable">Our solution</h2>
 				<p class="editable">The more you tell Frisco the better it gets to know you. Frisco matches you with people who share similar interests with you.</p>
 			</div>
 			<div class="image">
@@ -57,9 +57,9 @@ problem: /images/other/maintain2.jpg
 	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
 		<div class="inner-hero text-container">
 			<div class="hero-text-container">
-				<h2 class="editable">Sounds interesting?</h2>
-				<p class="subtext editable">Curabitur ut tempus leo, in consectetur odio.</p>
-				<div class="cta button alt"><a href="/contact/">We are hiering</a></div>
+				<h2 class="editable">Looking for a job?</h2>
+				<p class="subtext editable">We are currently hiering in our office in Trondheim</p>
+				<div class="cta button alt"><a href="/contact/">Join us now!</a></div>
 			</div>
 		</div>
 	</section>
