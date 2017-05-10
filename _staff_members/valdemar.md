@@ -1,7 +1,7 @@
 ---
 name: Valdemar Rolfsen
-position: CTO
+position: Test
 image_path: /images/members/valdemar.jpg
 twitter_username: valdemarrolfsen
-blurb: Valdemar is a really nice guy!
+blurb: Valdemar is working as a developer for Korde
 ---
