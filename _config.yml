@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem
 logo: /siteicon.png
-description: Intelligent maintainence optimization.
+description: Intelligent maintenance optimization
 social:
   name: Armin Tech
   links:
