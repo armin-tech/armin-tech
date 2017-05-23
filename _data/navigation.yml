@@ -1,6 +1,4 @@
 - name: News
   link: /blog/
-- name: Team
-  link: /about/
 - name: Contact
   link: /contact/
