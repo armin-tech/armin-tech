@@ -5,11 +5,11 @@ title: Armin Tech
 url: "https://armin-tech.github.io"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
+google_maps_javascript_api_key: "AIzaSyA9ey1Fc4RQ0OMSfQmzKLOsB6rBZFSEkhs"
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem
-logo: /siteicon.png
+logo: /images/logo/only_logo.png
 description: Intelligent maintenance optimization
 social:
   name: Armin Tech
