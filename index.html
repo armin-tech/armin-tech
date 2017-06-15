@@ -8,6 +8,10 @@ solution: /images/front/solution.jpeg
 benefits: /images/front/benefits.jpeg
 bottom_image: /images/bg/team.jpg
 
+problem_text: Identifying root cause to failure is a great challenge in most electromechanical industries.
+
+18%-30% of maintenance is wasted due to lack of good and relevant maintenance practice. In addition upto 30% of maintenance is assumed damaging for the equipment.
+
 videoMP4: /videos/construction.mp4
 videoWebM: /videos/construction.webm
 ---
@@ -36,8 +40,7 @@ videoWebM: /videos/construction.webm
 		<div class="container flex">
 			<div class="text">
 				<h2>Problem</h2>
-				<p>Identifying root cause to failure is a great challenge in most electromechanical industries.</p>
-				<p>18%-30% of maintenance is wasted due to lack of good and relevant maintenance practice. In addition upto 30% of maintenance is assumed damaging for the equipment.</p>
+				{{page.problem_text}}
 			</div>
 			<div class="image">
 				<img src="{% include relative-src.html src=page.problem %}" alt="Problem" />
