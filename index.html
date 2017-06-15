@@ -9,8 +9,11 @@ benefits: /images/front/benefits.jpeg
 bottom_image: /images/bg/team.jpg
 
 problem_text: Identifying root cause to failure is a great challenge in most electromechanical industries.<br><br>18%-30% of maintenance is wasted due to lack of good and relevant maintenance practice. In addition upto 30% of maintenance is assumed damaging for the equipment.
+philosophy_text: We believe that the people working closely with the equipment everyday are essential for a good maintenance practice. The input from these workers, their feedback from inspecting, monitoring, troubleshooting and repairing are vital. Analysis are not better than the data put into it.<br><br>This feedback combined with the world class maintenance practice is essential to achieve optimum availability and minimum sustainable cost of operation and maintenance.
+solution_text: Armin-tech combines all input from practical maintenance work, expert evaluation and sensors together with advanced machine learning to achieve optimal maintenance.<br><br>Faultfinding and optimizing maintenance is made easy and accurate combining all relevant input from maintenance organisation, expert evaluations and sensors together with machine learning.
+benefits_text: Effective troubleshooting with targeting potensial root causes.<br><br>Directly linking feedback from maintenance personnel to optimizing maintenance.<br><br>Effective training and transfer of experiences.</p><p>Effective predicting fault development and residual lifespan.<br><br>Increased commitment and enthusism among workers.<br><br>Effective tool for sparepart analysis.</p><p>Effective benchmarking of equipment across the company.
 
-videoMP4: /videos/construction.mp4
+	videoMP4: /videos/construction.mp4
 videoWebM: /videos/construction.webm
 ---
 
@@ -50,8 +53,7 @@ videoWebM: /videos/construction.webm
 		<div class="container flex">
 			<div class="text">
 				<h2>Our Philosophy</h2>
-				<p>We believe that the people working closely with the equipment everyday are essential for a good maintenance practice. The input from these workers, their feedback from inspecting, monitoring, troubleshooting and repairing are vital. Analysis are not better than the data put into it.</p>
-				<p>This feedback combined with the world class maintenance practice is essential to achieve optimum availability and minimum sustainable cost of operation and maintenance.</p>
+				<p>{{page.philosophy_text}}</p>
 			</div>
 			<div class="image">
 				<img src="{% include relative-src.html src=page.philosophy %}" alt="Screenshot" />
@@ -63,8 +65,7 @@ videoWebM: /videos/construction.webm
 		<div class="container flex">
 			<div class="text">
 				<h2>Our Solution</h2>
-				<p>Armin-tech combines all input from practical maintenance work, expert evaluation and sensors together with advanced machine learning to achieve optimal maintenance.</p>
-				<p>Faultfinding and optimizing maintenance is made easy and accurate combining all relevant input from maintenance organisation, expert evaluations and sensors together with machine learning.</p>
+				<p>{{page.solution_text}}</p>
 			</div>
 			<div class="image">
 				<img src="{% include relative-src.html src=page.solution %}" alt="Solution" />
@@ -76,13 +77,7 @@ videoWebM: /videos/construction.webm
 		<div class="container flex">
 			<div class="text">
 				<h2>Benefits</h2>
-				<p>Effective troubleshooting with targeting potensial root causes.</p>
-				<p>Directly linking feedback from maintenance personnel to optimizing maintenance.</p>
-				<p>Effective training and transfer of experiences.</p>
-				<p>Effective predicting fault development and residual lifespan.</p>
-				<p>Increased commitment and enthusism among workers.</p>
-				<p>Effective tool for sparepart analysis.</p>
-				<p>Effective benchmarking of equipment across the company.</p>
+				<p>{{page.benefits_text}}</p>
 			</div>
 			<div class="image">
 				<img src="{% include relative-src.html src=page.benefits %}" alt="Screenshot" />
