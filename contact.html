@@ -7,7 +7,7 @@ map:
   address: "Kongens Gate 30, 7012 Trondheim"
   zoom: 14
 image: /images/bg/trondheim.jpg
-email: support@armin-tech.no
+email: info@armin-tech.no
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -21,7 +21,7 @@ email: support@armin-tech.no
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="https://formspree.io/valdemar@korde.no" method="post" class="contact-form">
+		<form action="https://formspree.io/{{ page.email }}" method="post" class="contact-form">
 			<input type="hidden" name="_to" value="{{ page.email }}">
 			<input type="text" name="_gotcha" style="display: none;">
 
